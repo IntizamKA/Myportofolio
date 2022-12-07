@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+
+body{
+   background-color: rgb(24, 23, 23) !important;
+}
+
+/* animation navbar */
+@keyframes fadeinnav {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* animation navbar */
+
+/* NAVBAR */
+.navbar-expand-lg {
+    background-color: rgb(24, 23, 23) !important;
+   
+}
+
+.navbar-brand {
+    font-family: 'Oxygen', sans-serif !important;
+    color: rgb(173, 170, 170) !important;
+    font-size: 40px !important;
+    animation: fadeinnav 2s;
+}
+
+/* NAVBAR */
+
+
+
+
+
+
+
+
+
+/* main text */
+
+.main {
+    margin-top: 100px !important;
+    animation: fadeIn 4s ease;
+}
+
+
+
+/* animation text */
+@keyframes fadeIn {
+     from{
+         opacity: 0;
+     }
+     to {
+        opacity: 1;
+     }
+/* animation text */
+
+
+}
+.first {
+    color: rgb(26, 97, 26);
+}
+
+
+h1 {
+    color: rgb(78, 78, 78) !important;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 5px !important;
+    font-weight: bold !important;
+    
+}
+/* main text */
+
+
+/* group */
+
+.group {
+    
+    
+    margin-top: 200px !important;
+    text-align: center !important;
+    animation: fadedin 3s ease;
+
+}
+
+
+
+
+@keyframes fadedin {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.group ul li a {
+    text-decoration: none !important;
+    padding: 5px !important;
+    color: rgb(156, 151, 151) !important;
+    font-family: 'Monoton', cursive !important;
+    font-size: 15px !important;
+    
+}
+
+.group ul li a:hover {
+    background-color: rgb(192, 192, 192) !important;
+    color: black !important;
+    border-radius: 50px !important;
+}
+
+
+.group ul li {
+    list-style: none !important;
+    
+   
+}
+
+/* group */
+
+
+
+/* content */
+
+.content {
+    margin-top: 80px !important;
+    font-size: 20px !important;
+    color: rgb(134, 134, 134) !important;
+    animation: fadeIn 4s !important;
+}
