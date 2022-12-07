@@ -126,14 +126,3 @@ h1 {
 }
 
 /* group */
-
-
-
-/* content */
-
-.content {
-    margin-top: 80px !important;
-    font-size: 20px !important;
-    color: rgb(134, 134, 134) !important;
-    animation: fadeIn 4s !important;
-}

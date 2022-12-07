@@ -17,8 +17,10 @@ body{
         opacity: 1;
     }
 }
-
 /* animation navbar */
+
+
+
 
 /* NAVBAR */
 .navbar-expand-lg {
@@ -32,67 +34,90 @@ body{
     font-size: 40px !important;
     animation: fadeinnav 2s !important;
 }
-
 /* NAVBAR */
 
 
 
 
-
-
-
-
-
-/* main text */
+/* main CONTENT */
 
 .main {
     margin-top: 100px !important;
-    animation: fadeIn 4s ease;
-}
-
-
-
-/* animation text */
-@keyframes fadeIn {
-     from{
-         opacity: 0;
-     }
-     to {
-        opacity: 1;
-     }
-/* animation text */
-
-
-}
-.first {
-    color: rgb(26, 97, 26);
-}
-
-
-h1 {
-    color: rgb(78, 78, 78) !important;
-    font-family: 'Righteous', cursive;
-    letter-spacing: 5px !important;
-    font-weight: bold !important;
+    animation: fadeIn 4s !important;
     
 }
-/* main text */
 
+
+.inst a {
+    margin-left: 10px !important;
+    font-size: 25px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.github a {
+    margin-left: 10px !important;
+    font-size: 25px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.wa a {
+    margin-left: 10px !important;
+    font-size: 25px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+/* main content */
+
+
+/* animation logo */
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+       opacity: 1;
+    }
+}
+/* animation logo */
+
+
+/* logo */
+.logo {
+    width: 40px !important;
+    height: 40px !important;
+    
+}
+
+.logo2 {
+    width: 40px !important;
+    height: 40px !important;
+    
+}
+
+.logo3 {
+    width: 40px !important;
+    height: 40px !important;
+    
+}
+
+/* logo */
+
+/* MAIN CONTENT */
 
 /* group */
 
 .group {
     
-    
-    margin-top: 200px !important;
     text-align: center !important;
+    margin-top: 200px !important;
     animation: fadedin 3s ease;
-
 }
 
 
 
-
+/* animasi group */
 @keyframes fadedin {
     from {
         opacity: 0;
@@ -102,18 +127,17 @@ h1 {
         opacity: 1;
     }
 }
+/* animasi group */
 
 .group ul li a {
     text-decoration: none !important;
     padding: 5px !important;
     color: rgb(156, 151, 151) !important;
     font-family: 'Monoton', cursive !important;
-    font-size: 15px !important;
-    
 }
 
 .group ul li a:hover {
-    background-color: rgb(192, 192, 192) !important;
+    background-color: white !important;
     color: black !important;
     border-radius: 50px !important;
 }
@@ -125,15 +149,3 @@ h1 {
    
 }
 
-/* group */
-
-
-
-/* content */
-
-.content {
-    margin-top: 80px !important;
-    font-size: 20px !important;
-    color: rgb(134, 134, 134) !important;
-    animation: fadeIn 4s !important;
-}
