@@ -170,6 +170,13 @@ h1 {
     color: white !important;
 }
 
+.gmail a {
+    margin-left: 10px !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
 /* contact */
 
 
@@ -191,5 +198,9 @@ h1 {
     height: 20px !important;
     
 }
+
+.logo4 {
+    width: 20px !important;
+    height: 20px !important;
 
 /* logo contact */
