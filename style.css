@@ -81,7 +81,7 @@ h1 {
 
 /* group */
 
-.group {
+/* .group {
     
     
     margin-top: 200px !important;
@@ -123,7 +123,7 @@ h1 {
     list-style: none !important;
     
    
-}
+} */
 
 /* group */
 
@@ -137,3 +137,59 @@ h1 {
     color: rgb(134, 134, 134) !important;
     animation: fadeIn 4s !important;
 }
+
+
+
+/* contact */
+
+.contact {
+    margin-top: 100px !important;
+    animation: fadeIn 4s !important;
+    
+}
+
+
+.inst a {
+    margin-left: 10px !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.github a {
+    margin-left: 10px !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.wa a {
+    margin-left: 10px !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+/* contact */
+
+
+/* logo contact */
+.logo {
+    width: 30px !important;
+    height: 30px !important;
+    
+}
+
+.logo2 {
+    width: 30px !important;
+    height: 30px !important;
+    
+}
+
+.logo3 {
+    width: 30px !important;
+    height: 30px !important;
+    
+}
+
+/* logo contact */
